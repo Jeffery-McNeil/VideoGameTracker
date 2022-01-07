@@ -18,8 +18,10 @@ function GameListCard({ game, onDelete, onChange, setOnChange}) {
     if (seeDetails === true) {
         return (
             <article className="gameListCard">
-                <button className="deleteButton" onClick={handleClick}>Remove From List</button> 
-                <h3 className="gameListCardTitle" >{game.name}</h3>
+                <button className="deleteButton" onClick={handleClick}>Remove From List</button>
+                <div>
+                    <h3 className="gameListCardTitle" >{game.name}</h3>
+                </div> 
                 <img className="gameListCardImage" src={game.background_image} />
                 <button className="gameListSeeDetails" onClick={handleSeeDetails}> Hide Details</button>
                 <div className="cardDetails">
@@ -41,7 +43,9 @@ function GameListCard({ game, onDelete, onChange, setOnChange}) {
         return (
             <article className="gameListCard">
                 <button className="deleteButton" onClick={handleClick}>Remove From List</button>
-                <h3 className="gameListCardTitle">{game.name}</h3>
+                <div>
+                    <h3 className="gameListCardTitle" >{game.name}</h3>
+                </div> 
                 <img className="gameListCardImage" src={game.background_image} />
                 <button className="gameListSeeDetails" onClick={handleSeeDetails}> See Details</button>
                 <SwitchButton game={game} onChange={onChange} setOnChange={setOnChange}/>

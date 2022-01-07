@@ -40,11 +40,11 @@ function GameContainer({ games, onChangeGameList}) {
         <div>
             <SearchBar setSearchGames={setSearchGames}/>
             <div style={{textAlign: "center", marginBottom: "15px"}}>
-                <p style={{color: "white"}}>Sort By:</p>
+                <p style={{color: "white"}}>Sort Games:</p>
                 <input type="radio" name="releaseDate" value="releaseDate" onChange={handleRadioSort} checked={sort.releaseDate}/>
-                <label style={{color: "white"}}>Release Date </label>
+                <label style={{color: "white"}}>By Release </label>
                 <input type="radio" name="alphabet" value="alphabet" onChange={handleRadioSort} checked={sort.alphabet}/>
-                <label style={{color: "white"}}>Alphabetically</label>
+                <label style={{color: "white"}}>By Title</label>
             </div>
             <div id="loadGames">
                 <button id="loadGamesButton" onClick={handleClick} >Load More Games</button>

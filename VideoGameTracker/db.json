@@ -1,70 +1,10 @@
 {
   "games": [
     {
-      "name": "Paladins",
-      "background_image": "https://media.rawg.io/media/screenshots/88b/88b5f27f07d6ca2f8a3cd0b36e03a670.jpg",
-      "released": "2016-09-15",
-      "list": "Wishlist",
-      "platforms": [
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC",
-            "slug": "pc",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 398536,
-            "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
-          },
-          "released_at": "2012-07-30",
-          "requirements_en": {
-            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Windows XP, Windows Vista, Windows 7<br>\t</li><li><strong>Processor:</strong>2GHz Dual Core<br>\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 6800 or ATI Radeon x1950 or better with 256MB VRAM<br>\t</li><li><strong>DirectX®:</strong>9.0c<br>\t</li><li><strong>Hard Drive:</strong>9 GB HD space<br>\t</li><li><strong>Additional:</strong>Broadband Internet connection recommended for co-op play.</li></ul>",
-            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>Other Requirements:</strong>Broadband Internet connection<br>\t</li><li><strong>Additional:</strong>Broadband Internet connection recommended for co-op play.</li></ul>"
-          },
-          "requirements_ru": {
-            "minimum": "Core 2 Duo/Athlon x2 2 ГГц,2 Гб памяти,GeForce 6800/Radeon x1950,9 Гб на винчестере",
-            "recommended": "Сore i5/Phenom II 3 ГГц,3 Гб памяти,3D-ускоритель с 512 Мб памяти,9 Гб на винчестере"
-          }
-        }
-      ],
-      "id": 1
-    },
-    {
-      "name": "Final Fantasy VII Remake",
-      "background_image": "https://media.rawg.io/media/games/d89/d89bd0cf4fcdc10820892980cbba0f49.jpg",
-      "released": "2020-04-10",
-      "list": "Completed",
-      "platforms": [
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC",
-            "slug": "pc"
-          }
-        },
-        {
-          "platform": {
-            "id": 187,
-            "name": "PlayStation 5",
-            "slug": "playstation5"
-          }
-        },
-        {
-          "platform": {
-            "id": 18,
-            "name": "PlayStation 4",
-            "slug": "playstation4"
-          }
-        }
-      ],
-      "id": 2
-    },
-    {
       "name": "Assassin's Creed Origins",
       "background_image": "https://media.rawg.io/media/games/336/336c6bd63d83cf8e59937ab8895d1240.jpg",
       "released": "2017-10-27",
-      "list": "Playing",
+      "list": "Completed",
       "platforms": [
         {
           "platform": {
@@ -88,7 +28,8 @@
           }
         }
       ],
-      "id": 4
+      "metacritic": 81,
+      "id": 1
     },
     {
       "name": "Assassin's Creed Valhalla",
@@ -132,7 +73,46 @@
           }
         }
       ],
-      "id": 5
+      "metacritic": 82,
+      "id": 2
+    },
+    {
+      "name": "Assassin's Creed Odyssey",
+      "background_image": "https://media.rawg.io/media/games/c6b/c6bd26767c1053fef2b10bb852943559.jpg",
+      "released": "2018-10-05",
+      "list": "Playing",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        }
+      ],
+      "metacritic": 85,
+      "id": 3
     },
     {
       "name": "The Legend of Zelda: Breath of the Wild",
@@ -155,8 +135,8 @@
           }
         }
       ],
-      "metacritic": 78,
-      "id": 1
+      "metacritic": 97,
+      "id": 4
     }
   ]
 }

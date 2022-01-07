@@ -31,7 +31,7 @@ function SwitchButton ({ game, onChange, setOnChange }) {
     switch (game.list) {
         case "Wishlist": return <button className="switchButton" onClick={handleClick}>Move to Playing</button>
         case "Playing": return <button className="switchButton" onClick={handleClick}>Move to Completed</button>
-        case "Completed": return <button className="switchComplete">   Completed!   </button>
+        case "Completed": return <button style={{cursor:"auto"}} className="switchButton">   Completed!   </button>
     }
 }
 

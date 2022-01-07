@@ -36,7 +36,7 @@ function GameCard({ game, onChangeGameList }) {
                         return <em className="consoles" key={platform.platform.id}>{platform.platform.name} </em>
                     } )}
                 </div>
-                <select className="selectBox" onChange={handleChange} name="lists" id="list-select">
+                <select className="selectBox" onChange={handleChange} name="lists">
                     <option value="">--Add to list--</option>
                     <option value="Wishlist">Wishlist</option>
                     <option value="Playing">Playing</option>
@@ -51,7 +51,7 @@ function GameCard({ game, onChangeGameList }) {
                 <h3>{game.name}</h3>
                 <img src={game.background_image} />
                 <button className="seeDetails" onClick={handleSeeDetails}> See Details</button>
-                <select className="selectBox" onChange={handleChange} name="lists" id="list-select">
+                <select className="selectBox" onChange={handleChange} name="lists">
                     <option value="">--Add to list--</option>
                     <option value="Wishlist">Wishlist</option>
                     <option value="Playing">Playing</option>
